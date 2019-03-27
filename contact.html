@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <link rel="stylesheet" href="view/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="view/css/bootstrap.min.css">
+    <link rel="stylesheet" href="view/css/mdb.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="section-heading h1 pt-4">Vos coordonnées</h2>
+        <form id ="contact-form" name="contact-form" action="mail.php" method="POST"  onsubmit="return validateForm()" >
+            <!-- Name -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="md-form">
+                        <input type="text" id="name" name="name" class="form-control">
+                        <label for="name" class="">Your name</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Number + Street name -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="md-form">
+                        <input type="text" id="adress" name="adress" class="form-control">
+                        <label for="adress" class="">Your adress</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Postcode -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="md-form">
+                        <input type="text" id="postcode" name="postcode" class="form-control">
+                        <label for="postcode" class="">Your postcode</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Province -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="md-form">
+                        <input type="text" id="province" name="province" class="form-control">
+                        <label for="province" class="">Your province</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Country -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="md-form">
+                        <input type="text" id="country" name="country" class="form-control">
+                        <label for="country" class="">Your country</label>
+                    </div>
+                </div>
+            </div>
+            <!-- email-->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="md-form">
+                        <input type="text" id="email" name="email" class="form-control">
+                        <label for="email" class="">Your email</label>
+                    </div>
+                </div>
+            </div>
+        </form> 
+    </div>
+    <div class="row align-items-center justify-content-center">
+        <div class="col-4"><a class="btn btn-primary" onclick="validateForm()">Send</a></div>
+        <div class="col-8"><div class="status" id="status"></div></div>
+    </div> 
+
+    <script type="text/javascript" src="view/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="view/js/popper.min.js"></script>
+    <script type="text/javascript" src="view/js/bootstrap.js"></script>
+    <script type="text/javascript" src="view/js/mdb.js"></script>
+    <script type="text/javascript" src="view/js/app.js"></script>
+
+</body>
+
+</html>
