@@ -22,17 +22,18 @@
 <body class="homepage-v1 hidden-sn white-skin animated">
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar white">
-        <div class="container">
+      <div class="container">
         <!-- SideNav slide-out button -->
-            <a class="navbar-brand font-weight-bold" href="#">
-              <strong>Ma Provence</strong>
-            </a>
-            <a class="nav-link dark-grey-text font-weight-bold" href="#" data-toggle="modal" data-target="#cart-modal-ex">
-                    <span class="badge danger-color" id="badge">0</span>
-                    <i class="fas fa-shopping-cart blue-text" aria-hidden="true"></i>
-                    <span class="clearfix d-none d-sm-inline-block">Mes achats</span>
-            </a>
-        </div>
+        <a class="navbar-brand font-weight-bold" href="#">
+          <strong>Ma Provence</strong>
+        </a>
+         <a class="nav-link dark-grey-text font-weight-bold" href="#" data-toggle="modal" data-target="#cart-modal-ex">
+                <span class="badge danger-color">4</span>
+                <i class="fas fa-shopping-cart blue-text" aria-hidden="true"></i>
+                <span class="clearfix d-none d-sm-inline-block">Cart</span>
+              </a>
+            </li>
+         </div>
       </div>
     </nav>
  <!-- Section: Products v.1 -->
@@ -45,7 +46,7 @@
 
 
 <!-- Produit 1 -->
-      <div class="card mt-5">
+      <div class="card mt-5 hoverable">
         <div class="row mt-5">
           <div class="col-lg-6">
 
@@ -68,6 +69,17 @@
                 </div>
               </div>
               <!--/.Slides-->
+
+              <!--Thumbnails-->
+              <a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+              <!--/.Thumbnails-->
 
             </div>
             <!--/.Carousel Wrapper-->
@@ -155,6 +167,7 @@
                   </div>
                 </div>
               </div>
+              <!-- Accordion card -->
             </div>
             <!--/.Accordion wrapper-->
 
@@ -163,8 +176,8 @@
               <div class="mt-5">
                 <div class="row mt-3 mb-4">
                   <div class="col-md-12 text-center text-md-left text-md-right">
-                    <button class="btn btn-primary btn-rounded" id="1">
-                      <i class="fas fa-cart-plus mr-2" aria-hidden="true"></i>Commander</button>
+                    <button class="btn btn-primary btn-rounded">
+                      <i class="fas fa-cart-plus mr-2" aria-hidden="true"></i> Add to cart</button>
                   </div>
                 </div>
               </div>
@@ -305,7 +318,7 @@
               <div class="mt-5">
                 <div class="row mt-3 mb-4">
                   <div class="col-md-12 text-center text-md-left text-md-right">
-                    <button class="btn btn-primary btn-rounded" id="2">
+                    <button class="btn btn-primary btn-rounded">
                       <i class="fas fa-cart-plus mr-2" aria-hidden="true"></i> Add to cart</button>
                   </div>
                 </div>
@@ -446,7 +459,7 @@
               <div class="mt-5">
                 <div class="row mt-3 mb-4">
                   <div class="col-md-12 text-center text-md-left text-md-right">
-                    <button class="btn btn-primary btn-rounded" id="3">
+                    <button class="btn btn-primary btn-rounded">
                       <i class="fas fa-cart-plus mr-2" aria-hidden="true"></i> Add to cart</button>
                   </div>
                 </div>
